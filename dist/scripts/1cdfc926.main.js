@@ -1,0 +1,1 @@
+(function(){$(function(){var a;enchant(),a=new Core(320,320),a.preload("images/chara1.png"),a.fps=20,a.onload=function(){var b;b=new Sprite(32,32),b.image=a.assets["images/chara1.png"],a.rootScene.addChild(b),b.frame=[6,6,7,7],b.tl.moveBy(288,0,10).scaleTo(-1,1,10).moveBy(-288,0,90).scaleTo(1,1,10).loop},a.start()})}).call(this);
